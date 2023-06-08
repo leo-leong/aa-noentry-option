@@ -1,6 +1,9 @@
 LIBRARY	Dll1
 
+;https://developercommunity.visualstudio.com/t/Project-with-def-file-got-unexpected-li/10369971
+;Workaround for noentry option errors
 EXPORTS
     ;user_ibsta                      @1
     ;user_iberr                      @2
     fun1                        @3
+    fun2=fun1
